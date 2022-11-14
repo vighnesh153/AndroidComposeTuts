@@ -8,7 +8,9 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.androidcomposetuts.components.JetTriviaAppModule
 import com.example.androidcomposetuts.components.NoteApp
+import com.example.androidcomposetuts.components.TriviaHome
 import com.example.androidcomposetuts.ui.theme.AndroidComposeTutsTheme
 import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.HiltAndroidApp
@@ -34,7 +36,8 @@ fun App() {
 //            Intro()
 //            TipCalculator()
 //            Movie()
-            NoteApp()
+//            NoteApp()
+            TriviaHome()
         }
     }
 }
